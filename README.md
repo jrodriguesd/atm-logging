@@ -1,6 +1,6 @@
 # atm-logging
 
-A simple logging service for electron applications that puts the data into "log-output" object and automatically scrolls the data to the very bottom, so the latest data displayed is shown in the bottom of the page:
+A simple logging service for electron applications that puts the data into "log-output" object and automatically scrolls the data to the very bottom, so the latest data is displayed in the bottom of the page:
 ![log-area](img/log-area.png)
 
 ## Usage:
