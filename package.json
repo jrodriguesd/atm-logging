@@ -1,0 +1,40 @@
+{
+  "name": "atm-logging",
+  "version": "0.1.0",
+  "description": "ATM Logging Service",
+  "main": "lib/log.js",
+  "scripts": {
+    "test": "eslint tests/** lib/** && ava"
+  },
+  "repository": "https://github.com/timgabets/atm-logging",
+  "keywords": [
+    "Logging",
+    "Log"
+  ],
+  "ava": {
+    "files": [
+      "tests/*.js"
+    ],
+    "source": [
+      "lib/**/*.{js}"
+    ],
+    "concurrency": 5,
+    "failFast": true,
+    "failWithoutAssertions": false,
+    "powerAssert": false
+  },
+  "author": {
+    "name": "Tim Gabets",
+    "email": "tim@gabets.ru",
+    "url": "http://gabets.ru/"
+  },
+  "license": "LGPL-2.1",
+  "devDependencies": {
+    "ava": "^0.23.0",
+    "eslint": "^4.12.0",
+    "eslint-plugin-import": "^2.8.0"
+  },
+  "dependencies": {
+    "atm-timestamp": "^1.1.1"
+  }
+}
